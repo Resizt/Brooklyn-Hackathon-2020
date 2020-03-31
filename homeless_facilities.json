@@ -1,0 +1,266 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ebt8-uf7e",
+      "name" : "DOITT_DYCD_RHY_01_13SEPT2010",
+      "averageRating" : 0,
+      "createdAt" : 1365191173,
+      "displayType" : "geoRows",
+      "downloadCount" : 830,
+      "hideFromCatalog" : true,
+      "hideFromDataJson" : true,
+      "indexUpdatedAt" : 1536598442,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 15713459,
+      "provenance" : "community",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 6269956,
+      "publicationStage" : "published",
+      "tableId" : 6269956,
+      "totalTimesRated" : 0,
+      "viewCount" : 47,
+      "viewLastModified" : 1536598190,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewableUid" : "h682-ywyg",
+        "reviewedAt" : 1365191174,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 1066056,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1365191174,
+        "workflowId" : 2285,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "5fuc-pqz2",
+          "displayName" : "NYC OpenData"
+        }
+      } ],
+      "childViews" : [ "" ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 234876873,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 1,
+        "renderTypeName" : "point",
+        "tableColumnId" : 33441301,
+        "format" : { }
+      }, {
+        "id" : 234876877,
+        "name" : "ID",
+        "dataTypeName" : "number",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33441305,
+        "format" : { }
+      }, {
+        "id" : 234876881,
+        "name" : "SERVICE",
+        "dataTypeName" : "text",
+        "fieldName" : "service",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441309,
+        "format" : { }
+      }, {
+        "id" : 234876886,
+        "name" : "DIVISIONNA",
+        "dataTypeName" : "text",
+        "fieldName" : "divisionna",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441314,
+        "format" : { }
+      }, {
+        "id" : 234876890,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441318,
+        "format" : { }
+      }, {
+        "id" : 234876893,
+        "name" : "ZIPCODE",
+        "dataTypeName" : "number",
+        "fieldName" : "zipcode",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33441321,
+        "format" : { }
+      }, {
+        "id" : 234876896,
+        "name" : "PHONENUMBE",
+        "dataTypeName" : "text",
+        "fieldName" : "phonenumbe",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441324,
+        "format" : { }
+      }, {
+        "id" : 234876899,
+        "name" : "SERVICESOF",
+        "dataTypeName" : "text",
+        "fieldName" : "servicesof",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441327,
+        "format" : { }
+      }, {
+        "id" : 234876901,
+        "name" : "URL",
+        "dataTypeName" : "text",
+        "fieldName" : "url",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441329,
+        "format" : { }
+      }, {
+        "id" : 234876903,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33441331,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "geo" : {
+          "parentUid" : "h682-ywyg",
+          "isNbe" : true
+        },
+        "custom_fields" : {
+          "Update" : {
+            "Date Made Public" : "6/28/2013"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "qy85-itiy",
+        "displayName" : "gneuhaus",
+        "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+        "screenName" : "gneuhaus",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "qy85-itiy",
+        "displayName" : "gneuhaus",
+        "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+        "screenName" : "gneuhaus",
+        "type" : "interactive",
+        "userSegment" : "community_user"
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-6z83~ayy5.ej5m", "00000000-0000-0000-51F7-231EB0662084", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.99338310640853 40.74862808090852)", "1.0", "Crises", "Safe Horizon, Inc", "214 West 30th Street", "10027.0", "(212) 268-3943", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "New York" ]
+, [ "row-w92f.x3tn_9kw7", "00000000-0000-0000-C069-3A4B94BA4160", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.98926242678021 40.76543659340834)", "2.0", "Crises", "Covenant House", "427 West 52nd Street,", "10019.0", "(212) 613-0300 ext. 0532", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "New York" ]
+, [ "row-wwve-4p3g_7eyc", "00000000-0000-0000-4A69-8A9372E32907", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.99557687133783 40.75854146537268)", "3.0", "Crises", "Covenant House", "460 West 41st Street", "10036.0", "(212) 613-0300 ext. 0531", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "New York" ]
+, [ "row-pf3n-u3bb-uuv7", "00000000-0000-0000-E80B-254F3CA58944", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.9593103103567 40.69090313048385)", "4.0", "Crises", "Ali Forney Center", "241 Taffee Place", "11205.0", "(212) 206-0574", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Brooklyn" ]
+, [ "row-zie7-vnfc.iek7", "00000000-0000-0000-B7FE-F0C3E134AA45", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-74.0093510486368 40.65202799350939)", "5.0", "Crises", "The Turning Point Sunset Terrace", "319-321 42nd Street", "11220.0", "(718) 640-1560 ext. 9025", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Brooklyn" ]
+, [ "row-8888~jxc5_dszr", "00000000-0000-0000-D2D8-4DBCFE20B8CD", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.99542364366205 40.66053403970373)", "6.0", "Crises", "Ali Forney Center", "216 23rd Street", "11232.0", "(212) 206-0574", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Brooklyn" ]
+, [ "row-3bcd_9u4u-fuy8", "00000000-0000-0000-F9DD-FA8DA906EE5D", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-74.01450042310613 40.645102977591485)", "7.0", "Crises", "The Turning Point", "5220 Fourth Avenue", "11220.0", "(718) 439-0077", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Brooklyn" ]
+, [ "row-a4n3-gz92~4j4n", "00000000-0000-0000-6680-C484C57346FA", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.92017897369153 40.81698294716547)", "8.0", "Drop in", "Cardinal McCloskey", "333 East 149th Street", "10451.0", "(718) 993-5495", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Bronx" ]
+, [ "row-k8ut.5ugi.yxp6", "00000000-0000-0000-C749-F06A380E9367", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-74.0051692831716 40.72412129376002)", "9.0", "Drop in", "The Door", "121 6th Avenue", "10013.0", "(212) 453-0248", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "New York" ]
+, [ "row-yfun~wmjx_akit", "00000000-0000-0000-F1FB-4A28E76CEBA7", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-74.13440427740537 40.635744440562384)", "10.0", "Drop in", "Project Hospitality", "1546 Castleton Avenue", "10302.0", "(877) 994-6736", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Staten Island" ]
+, [ "row-iv7t~yfj6-b9nh", "00000000-0000-0000-19AC-410DF28F8DC7", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.96509134546051 40.70832272876161)", "11.0", "Drop in", "SCO Family of Services", "89 South 10th Street", "11221.0", "(718) 384-7083", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Brooklyn" ]
+, [ "row-5d94_9tcu.xi3f", "00000000-0000-0000-2047-B8FBB6C9CEC4", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.91562948297278 40.81491018917466)", "13.0", "Drop in", "Bronx Community Pride Center", "448 East 149th Street", "10455.0", "(718) 292-4368", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "Bronx" ]
+, [ "row-q7hm_d265.jh4e", "00000000-0000-0000-0643-59D55A11FCDD", 0, 1450753505, null, 1450753505, null, "{ }", "POINT (-73.94858861436468 40.809390746635856)", "14.0", "Drop in", "Safe Horizon, Inc", "209 West 125th Street", "10027.0", "(212) 695-2220", "Runaway and Homeless Youth (RHY) services", "http://www.nyc.gov/html/dycd/html/runaway/runaway.shtml", "New York" ]
+ ]
+}

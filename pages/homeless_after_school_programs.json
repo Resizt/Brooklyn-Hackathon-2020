@@ -1,0 +1,1151 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ujsc-un6m",
+      "name" : "DYCD after-school programs: Runaway And Homeless Youth",
+      "attribution" : "Department of Youth and Community Development (DYCD)",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1314991290,
+      "description" : "Facilities in New York City, by agency and site,  that offer after-school programs for runaway and homeless youth, including street outreach programs, drop-in centers, crisis shelters, and transitional independent living (TIL) programs.",
+      "displayType" : "table",
+      "downloadCount" : 3565,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1536596136,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 26811538,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1505565548,
+      "publicationGroup" : 240062,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1505565542,
+      "rowsUpdatedBy" : "d5dp-fses",
+      "tableId" : 14467263,
+      "totalTimesRated" : 0,
+      "viewCount" : 1608,
+      "viewLastModified" : 1536607347,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1505565548,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 1068520,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1505565548,
+        "workflowId" : 2285,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "5fuc-pqz2",
+          "displayName" : "NYC OpenData"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 320478494,
+        "name" : "PROGRAM TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "program_type",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514706,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "Runaway & Homeless Youth Sreeet Outreach",
+          "non_null" : 23,
+          "null" : "0",
+          "top" : [ {
+            "item" : "Runaway & Homeless Youth",
+            "count" : "20"
+          }, {
+            "item" : "Runaaway & Homeless Youth Transitional Independent Living",
+            "count" : "2"
+          }, {
+            "item" : "Runaway & Homeless Youth Sreeet Outreach",
+            "count" : "1"
+          } ],
+          "smallest" : "Runaaway & Homeless Youth Transitional Independent Living",
+          "not_null" : "23",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478495,
+        "name" : "PROGRAM",
+        "dataTypeName" : "text",
+        "fieldName" : "program",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514707,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Transportation",
+          "non_null" : 21,
+          "null" : "2",
+          "top" : [ {
+            "item" : "Transitional Independent Living (TIL)",
+            "count" : "8"
+          }, {
+            "item" : "Drop-In Center",
+            "count" : "5"
+          }, {
+            "item" : "Crisis Shelter",
+            "count" : "5"
+          }, {
+            "item" : "Street Outreach",
+            "count" : "2"
+          }, {
+            "item" : "Transportation",
+            "count" : "1"
+          } ],
+          "smallest" : "Crisis Shelter",
+          "not_null" : "21",
+          "cardinality" : "5"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478496,
+        "name" : "SITE NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "site_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514708,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "Seamans Society for Children and Families ",
+          "non_null" : 23,
+          "null" : "0",
+          "top" : [ {
+            "item" : "SCO Family of Services",
+            "count" : "3"
+          }, {
+            "item" : "Safe Horizon, Inc",
+            "count" : "2"
+          }, {
+            "item" : "Safe Space NYC, Inc",
+            "count" : "2"
+          }, {
+            "item" : "Covenant House New York / Under 21",
+            "count" : "2"
+          }, {
+            "item" : "Ali Forney Center",
+            "count" : "2"
+          }, {
+            "item" : "Rachel's Place",
+            "count" : "1"
+          }, {
+            "item" : "Safe Horizon",
+            "count" : "1"
+          }, {
+            "item" : "Inwood House",
+            "count" : "1"
+          }, {
+            "item" : "SCO Family of Services IV",
+            "count" : "1"
+          }, {
+            "item" : "SCO Drop In Center",
+            "count" : "1"
+          }, {
+            "item" : "Good Shepherd Services",
+            "count" : "1"
+          }, {
+            "item" : "Bronx Community Pride Center, Inc.",
+            "count" : "1"
+          }, {
+            "item" : "Green Chimneys",
+            "count" : "1"
+          }, {
+            "item" : "Greenwich Village Youth Council",
+            "count" : "1"
+          }, {
+            "item" : "Seamans Society for Children and Families ",
+            "count" : "1"
+          }, {
+            "item" : "Girls Educational & Mentoring Services, Inc.",
+            "count" : "1"
+          }, {
+            "item" : "La Asociacion Benefica Cultural Father Billini",
+            "count" : "1"
+          } ],
+          "smallest" : "Ali Forney Center",
+          "not_null" : "23",
+          "cardinality" : "17"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478497,
+        "name" : "BOROUGH / COMMUNITY",
+        "dataTypeName" : "text",
+        "fieldName" : "borough_community",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514709,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "Staten Island",
+          "non_null" : 23,
+          "null" : "0",
+          "top" : [ {
+            "item" : "Manhattan",
+            "count" : "10"
+          }, {
+            "item" : "Brooklyn",
+            "count" : "7"
+          }, {
+            "item" : "Queens",
+            "count" : "4"
+          }, {
+            "item" : "Bronx",
+            "count" : "1"
+          }, {
+            "item" : "Staten Island",
+            "count" : "1"
+          } ],
+          "smallest" : "Bronx",
+          "not_null" : "23",
+          "cardinality" : "5"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478498,
+        "name" : "AGENCY",
+        "dataTypeName" : "text",
+        "fieldName" : "agency",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514710,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Seamans Society for Children and Families",
+          "non_null" : 23,
+          "null" : "0",
+          "top" : [ {
+            "item" : "SCO Family of Services",
+            "count" : "5"
+          }, {
+            "item" : "Safe Horizon, Inc",
+            "count" : "3"
+          }, {
+            "item" : "Safe Space NYC, Inc",
+            "count" : "2"
+          }, {
+            "item" : "Ali Forney Center",
+            "count" : "2"
+          }, {
+            "item" : "Covenant House New York",
+            "count" : "2"
+          }, {
+            "item" : "Inwood house",
+            "count" : "1"
+          }, {
+            "item" : "Seamans Society for Children and Families",
+            "count" : "1"
+          }, {
+            "item" : "Good Shepherd Services",
+            "count" : "1"
+          }, {
+            "item" : "Bronx Community Pride Center, Inc.",
+            "count" : "1"
+          }, {
+            "item" : "Green Chimneys",
+            "count" : "1"
+          }, {
+            "item" : "Greenwich Village Youth Council",
+            "count" : "1"
+          }, {
+            "item" : "Girls Educational & Mentoring Services, Inc.",
+            "count" : "1"
+          }, {
+            "item" : "La Asociacion Benefica Cultural Father Billini",
+            "count" : "1"
+          }, {
+            "item" : "Rachel's Place",
+            "count" : "1"
+          } ],
+          "smallest" : "Ali Forney Center",
+          "not_null" : "23",
+          "cardinality" : "14"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478499,
+        "name" : "Contact Number",
+        "dataTypeName" : "text",
+        "fieldName" : "contact_number",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514711,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "718.827.8465",
+          "non_null" : 23,
+          "null" : "0",
+          "top" : [ {
+            "item" : "212.206.0574",
+            "count" : "2"
+          }, {
+            "item" : "212.926.8089 ext. 25",
+            "count" : "1"
+          }, {
+            "item" : "718.782.0198",
+            "count" : "1"
+          }, {
+            "item" : "212.491.5911 ext. 13",
+            "count" : "1"
+          }, {
+            "item" : "718.447.7740 ext. 248",
+            "count" : "1"
+          }, {
+            "item" : "212.613.0300 ext. 0532",
+            "count" : "1"
+          }, {
+            "item" : "212.613.0300 ext. 0531",
+            "count" : "1"
+          }, {
+            "item" : "718.217.5613",
+            "count" : "1"
+          }, {
+            "item" : "718.292.4368",
+            "count" : "1"
+          }, {
+            "item" : "718.526.2400",
+            "count" : "1"
+          }, {
+            "item" : "718.827.8465",
+            "count" : "1"
+          }, {
+            "item" : "646.485.6900",
+            "count" : "1"
+          }, {
+            "item" : "212.861.4325",
+            "count" : "1"
+          }, {
+            "item" : "718.651.8427",
+            "count" : "1"
+          }, {
+            "item" : "646.209.1264",
+            "count" : "1"
+          }, {
+            "item" : "718.326.5931",
+            "count" : "1"
+          }, {
+            "item" : "718.253.5364",
+            "count" : "1"
+          }, {
+            "item" : "718.384.7083",
+            "count" : "1"
+          }, {
+            "item" : "212.695.2220",
+            "count" : "1"
+          }, {
+            "item" : "718.526.3000",
+            "count" : "1"
+          } ],
+          "smallest" : "212.206.0574",
+          "not_null" : "23",
+          "cardinality" : "22"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478500,
+        "name" : "Grade Level / Age Group ",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_level_age_group",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1514712,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : "23",
+          "not_null" : "0",
+          "cardinality" : "0"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478501,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1514713,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 320478510,
+        "name" : "Number and Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "number_and_street_address",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 53373769,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "89 South 10th Street",
+          "non_null" : 13,
+          "null" : "10",
+          "top" : [ {
+            "item" : "209 West 125th Street ",
+            "count" : "2"
+          }, {
+            "item" : "216 23rd Street",
+            "count" : "1"
+          }, {
+            "item" : "427 West 52nd Street",
+            "count" : "1"
+          }, {
+            "item" : "241 Taffee Place",
+            "count" : "1"
+          }, {
+            "item" : "50 Bay Street",
+            "count" : "1"
+          }, {
+            "item" : "104- 11 37th Avenue",
+            "count" : "1"
+          }, {
+            "item" : "89 South 10th Street",
+            "count" : "1"
+          }, {
+            "item" : "165 West 131st Street",
+            "count" : "1"
+          }, {
+            "item" : "2273 3rd Avenue",
+            "count" : "1"
+          }, {
+            "item" : "89-31 161St ",
+            "count" : "1"
+          }, {
+            "item" : "460 West 41st Street",
+            "count" : "1"
+          }, {
+            "item" : "448 East 149th Street",
+            "count" : "1"
+          } ],
+          "smallest" : "104- 11 37th Avenue",
+          "not_null" : "13",
+          "cardinality" : "12"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478511,
+        "name" : "Postcode",
+        "dataTypeName" : "number",
+        "fieldName" : "postcode",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53373770,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "11433",
+          "non_null" : 23,
+          "average" : "10664.17391304348",
+          "null" : "0",
+          "top" : [ {
+            "item" : "10027",
+            "count" : "3"
+          }, {
+            "item" : "11221",
+            "count" : "2"
+          }, {
+            "item" : "10011",
+            "count" : "1"
+          }, {
+            "item" : "10065",
+            "count" : "1"
+          }, {
+            "item" : "11232",
+            "count" : "1"
+          }, {
+            "item" : "11205",
+            "count" : "1"
+          }, {
+            "item" : "11368",
+            "count" : "1"
+          }, {
+            "item" : "11432",
+            "count" : "1"
+          }, {
+            "item" : "10038",
+            "count" : "1"
+          }, {
+            "item" : "11234",
+            "count" : "1"
+          }, {
+            "item" : "10455",
+            "count" : "1"
+          }, {
+            "item" : "10039",
+            "count" : "1"
+          }, {
+            "item" : "11433",
+            "count" : "1"
+          }, {
+            "item" : "10301",
+            "count" : "1"
+          }, {
+            "item" : "10036",
+            "count" : "1"
+          }, {
+            "item" : "11429",
+            "count" : "1"
+          }, {
+            "item" : "10037",
+            "count" : "1"
+          }, {
+            "item" : "11208",
+            "count" : "1"
+          }, {
+            "item" : "10019",
+            "count" : "1"
+          }, {
+            "item" : "11211",
+            "count" : "1"
+          } ],
+          "smallest" : "10011",
+          "not_null" : "23",
+          "sum" : "245276",
+          "cardinality" : "20"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 320478502,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284864,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "40.815377",
+          "non_null" : 11,
+          "average" : "40.75780627272727",
+          "null" : "12",
+          "top" : [ {
+            "item" : "40.80919",
+            "count" : "2"
+          }, {
+            "item" : "40.708154",
+            "count" : "1"
+          }, {
+            "item" : "40.765146",
+            "count" : "1"
+          }, {
+            "item" : "40.802707",
+            "count" : "1"
+          }, {
+            "item" : "40.758655",
+            "count" : "1"
+          }, {
+            "item" : "40.81232",
+            "count" : "1"
+          }, {
+            "item" : "40.660694",
+            "count" : "1"
+          }, {
+            "item" : "40.753535",
+            "count" : "1"
+          }, {
+            "item" : "40.640901",
+            "count" : "1"
+          }, {
+            "item" : "40.815377",
+            "count" : "1"
+          } ],
+          "smallest" : "40.640901",
+          "not_null" : "11",
+          "sum" : "448.335869",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478503,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284866,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "-73.863451",
+          "non_null" : 11,
+          "average" : "-73.96171472727273",
+          "null" : "12",
+          "top" : [ {
+            "item" : "-73.94882",
+            "count" : "2"
+          }, {
+            "item" : "-73.965482",
+            "count" : "1"
+          }, {
+            "item" : "-73.94449",
+            "count" : "1"
+          }, {
+            "item" : "-73.916026",
+            "count" : "1"
+          }, {
+            "item" : "-73.863451",
+            "count" : "1"
+          }, {
+            "item" : "-73.988982",
+            "count" : "1"
+          }, {
+            "item" : "-73.995116",
+            "count" : "1"
+          }, {
+            "item" : "-74.075766",
+            "count" : "1"
+          }, {
+            "item" : "-73.93653",
+            "count" : "1"
+          }, {
+            "item" : "-73.995379",
+            "count" : "1"
+          } ],
+          "smallest" : "-74.075766",
+          "not_null" : "11",
+          "sum" : "-813.578862",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478504,
+        "name" : "Community Board",
+        "dataTypeName" : "number",
+        "fieldName" : "community_board",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284869,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "11",
+          "non_null" : 11,
+          "average" : "5.636363636363636",
+          "null" : "12",
+          "top" : [ {
+            "item" : "1",
+            "count" : "3"
+          }, {
+            "item" : "10",
+            "count" : "3"
+          }, {
+            "item" : "4",
+            "count" : "2"
+          }, {
+            "item" : "11",
+            "count" : "1"
+          }, {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "7",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "not_null" : "11",
+          "sum" : "62",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478505,
+        "name" : "Council District ",
+        "dataTypeName" : "number",
+        "fieldName" : "community_council",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284871,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "49",
+          "non_null" : 11,
+          "average" : "17.27272727272727",
+          "null" : "12",
+          "top" : [ {
+            "item" : "9",
+            "count" : "3"
+          }, {
+            "item" : "8",
+            "count" : "2"
+          }, {
+            "item" : "3",
+            "count" : "2"
+          }, {
+            "item" : "49",
+            "count" : "1"
+          }, {
+            "item" : "33",
+            "count" : "1"
+          }, {
+            "item" : "38",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          } ],
+          "smallest" : "3",
+          "not_null" : "11",
+          "sum" : "190",
+          "cardinality" : "7"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 320478506,
+        "name" : "Census Tract",
+        "dataTypeName" : "number",
+        "fieldName" : "census_tract",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284873,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "547",
+          "non_null" : 11,
+          "average" : "202.6363636363636",
+          "null" : "12",
+          "top" : [ {
+            "item" : "222",
+            "count" : "2"
+          }, {
+            "item" : "547",
+            "count" : "1"
+          }, {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "226",
+            "count" : "1"
+          }, {
+            "item" : "145",
+            "count" : "1"
+          }, {
+            "item" : "379",
+            "count" : "1"
+          }, {
+            "item" : "43",
+            "count" : "1"
+          }, {
+            "item" : "133",
+            "count" : "1"
+          }, {
+            "item" : "194",
+            "count" : "1"
+          }, {
+            "item" : "115",
+            "count" : "1"
+          } ],
+          "smallest" : "3",
+          "not_null" : "11",
+          "sum" : "2229",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478507,
+        "name" : "BIN",
+        "dataTypeName" : "number",
+        "fieldName" : "bin",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284875,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "5000034",
+          "non_null" : 11,
+          "average" : "2160007.909090909",
+          "null" : "12",
+          "top" : [ {
+            "item" : "1058660",
+            "count" : "2"
+          }, {
+            "item" : "1080953",
+            "count" : "1"
+          }, {
+            "item" : "2000538",
+            "count" : "1"
+          }, {
+            "item" : "4043421",
+            "count" : "1"
+          }, {
+            "item" : "1054659",
+            "count" : "1"
+          }, {
+            "item" : "5000034",
+            "count" : "1"
+          }, {
+            "item" : "1000000",
+            "count" : "1"
+          }, {
+            "item" : "1080922",
+            "count" : "1"
+          }, {
+            "item" : "3322574",
+            "count" : "1"
+          }, {
+            "item" : "3059666",
+            "count" : "1"
+          } ],
+          "smallest" : "1000000",
+          "not_null" : "11",
+          "sum" : "23760087",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478508,
+        "name" : "BBL",
+        "dataTypeName" : "number",
+        "fieldName" : "bbl",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53284877,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "5000050099",
+          "non_null" : 11,
+          "average" : "2013273668.272727",
+          "null" : "12",
+          "top" : [ {
+            "item" : "1019310027",
+            "count" : "2"
+          }, {
+            "item" : "1010500001",
+            "count" : "1"
+          }, {
+            "item" : "5000050099",
+            "count" : "1"
+          }, {
+            "item" : "4017460035",
+            "count" : "1"
+          }, {
+            "item" : "1010620017",
+            "count" : "1"
+          }, {
+            "item" : "1017880050",
+            "count" : "1"
+          }, {
+            "item" : "2022930053",
+            "count" : "1"
+          }, {
+            "item" : "3006490027",
+            "count" : "1"
+          }, {
+            "item" : "3021460015",
+            "count" : "1"
+          }, {
+            "item" : "0",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "not_null" : "11",
+          "sum" : "22146010351",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 320478509,
+        "name" : "NTA",
+        "dataTypeName" : "text",
+        "fieldName" : "nta",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 53284879,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "West New Brighton-New Brighton-St. George                                  ",
+          "non_null" : 11,
+          "null" : "12",
+          "top" : [ {
+            "item" : "Central Harlem South                                                       ",
+            "count" : "2"
+          }, {
+            "item" : "Clinton                                                                    ",
+            "count" : "2"
+          }, {
+            "item" : "North Corona                                                               ",
+            "count" : "1"
+          }, {
+            "item" : "North Side-South Side                                                      ",
+            "count" : "1"
+          }, {
+            "item" : "East Harlem North                                                          ",
+            "count" : "1"
+          }, {
+            "item" : "West New Brighton-New Brighton-St. George                                  ",
+            "count" : "1"
+          }, {
+            "item" : "Central Harlem North-Polo Grounds                                          ",
+            "count" : "1"
+          }, {
+            "item" : "Sunset Park West                                                           ",
+            "count" : "1"
+          }, {
+            "item" : "Mott Haven-Port Morris                                                     ",
+            "count" : "1"
+          } ],
+          "smallest" : "Central Harlem North-Polo Grounds                                          ",
+          "not_null" : "11",
+          "cardinality" : "9"
+        },
+        "format" : { }
+      }, {
+        "id" : 320480626,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_efsh_h5xi",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53375347,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_efsh-h5xi",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 320480627,
+        "name" : "Community Districts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_f5dn_yrer",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53375348,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_f5dn-yrer",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 320480628,
+        "name" : "Borough Boundaries",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_yeji_bk3q",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53375349,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_yeji-bk3q",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 320480629,
+        "name" : "City Council Districts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_92fq_4b7q",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53375350,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_92fq-4b7q",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 320480630,
+        "name" : "Police Precincts",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_sbqj_enih",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 53375351,
+        "computationStrategy" : {
+          "source_columns" : [ "location_1" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_sbqj-enih",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "attachments" : [ {
+          "filename" : "After_School_Pgms_RHY.xlsx",
+          "assetId" : "15c818fc-5b4f-4827-be94-13ce1d71bf2b",
+          "name" : "After_School_Pgms_RHY.xlsx"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Date Made Public" : "9/2/2011",
+            "Update Frequency" : "As needed"
+          },
+          "Legislative Compliance" : {
+            "Geo-coding Attached?" : ""
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Youth and Community Development (DYCD)"
+          }
+        },
+        "rowIdentifier" : "0",
+        "rowLabel" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "jobs and economic mobility", "education", "services", "youth", "community", "development", "community development", "school", "child", "children", "after-school", "after-school programs", "programs", "young adult", "runaway", "homeless", "street", "outreach", "street outreach", "drop-in centers", "crisis", "crisis shelters", "shelters", "itil", "transitional independent living", "lifelong learning" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType", "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-mxi2-fjvu_tnpz", "00000000-0000-0000-3B7B-57882DCF1A8F", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "Girls Educational & Mentoring Services, Inc.", "Manhattan", "Girls Educational & Mentoring Services, Inc.", "212.926.8089 ext. 25", null, null, null, "10039", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-4num~8psu.phv4", "00000000-0000-0000-D2F1-AF00303609F6", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "Good Shepherd Services", "Manhattan", "Good Shepherd Services", "646.485.6900", null, null, null, "10011", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-3yvr-jsjq.ms55", "00000000-0000-0000-BF3F-F271A86D2CBF", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "Green Chimneys", "Manhattan", "Green Chimneys", "212.491.5911 ext. 13", null, null, null, "10038", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-up33-ihai-rfhd", "00000000-0000-0000-8A94-E37868011E03", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "Inwood House", "Manhattan", "Inwood house", "212.861.4325", null, null, null, "10065", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-5bnm-6evy~wwv6", "00000000-0000-0000-46B4-5C518CA5474D", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "Rachel's Place", "Brooklyn", "Rachel's Place", "718.253.5364", null, null, null, "11234", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-4nx5~8a6k~529k", "00000000-0000-0000-DCD8-CDDC22122566", 0, 1505569033, null, 1505569033, null, "{ }", "Runaaway & Homeless Youth Transitional Independent Living", null, "Safe Space NYC, Inc", "Queens", "Safe Space NYC, Inc", "718.526.3000", null, null, null, "11433", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-pguc~4djt_i9jb", "00000000-0000-0000-06A1-B58742223404", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "SCO Family of Services", "Brooklyn", "SCO Family of Services", "718.827.8465", null, null, null, "11208", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-yhai-ccvf-qnts", "00000000-0000-0000-7A75-708F27FD5AA8", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "SCO Family of Services", "Brooklyn", "SCO Family of Services", "718.782.0198", null, null, null, "11211", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-b9um~c5pe.74yy", "00000000-0000-0000-CE65-251EA40694DA", 0, 1505569033, null, 1505569033, null, "{ }", "Runaway & Homeless Youth", "Transitional Independent Living (TIL)", "SCO Family of Services", "Brooklyn", "SCO Family of Services", "718.326.5931", null, null, null, "11221", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-f6uh_z94p~nqkx", "00000000-0000-0000-FF3E-6E4134EC973B", 0, 1505569033, null, 1505569033, null, "{ }", "Runaaway & Homeless Youth Transitional Independent Living", null, "SCO Family of Services IV", "Queens", "SCO Family of Services", "718.217.5613", null, null, null, "11429", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ "row-xgvs~urdk.6vpg", "00000000-0000-0000-B158-51EDC4F0EE26", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Drop-In Center", "SCO Drop In Center", "Brooklyn", "SCO Family of Services", "718.384.7083", null, [ "{\"address\": \"89 10th Street\", \"city\": \"Brooklyn\", \"state\": \"NEW YORK\", \"zip\": \"11221\"}", "40.672140908347", "-73.994183928581", null, false ], "89 South 10th Street", "11221", "40.708154", "-73.965482", "1", "33", "547", "3059666", "3021460015", "North Side-South Side                                                      ", "17617", "14", "2", "27", "50" ]
+, [ "row-h4d5.5fqj_mj3w", "00000000-0000-0000-6488-483B153E4883", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Drop-In Center", "Safe Horizon, Inc", "Manhattan", "Safe Horizon, Inc", "212.695.2220 or 800.708.6600", null, [ "{\"address\": \"209 125th Street\", \"city\": \"Manhattan\", \"state\": \"NEW YORK\", \"zip\": \"10027\"}", "40.809154206199", "-73.948683474836", null, false ], "209 West 125th Street ", "10027", "40.80919", "-73.94882", "10", "9", "222", "1058660", "1019310027", "Central Harlem South                                                       ", "12424", "18", "4", "36", "18" ]
+, [ "row-qkkw.me5t.pr7z", "00000000-0000-0000-931E-06353120DAF2", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Street Outreach", "La Asociacion Benefica Cultural Father Billini", "Queens", "La Asociacion Benefica Cultural Father Billini", "718.651.8427", null, [ "{\"address\": \"104 11 37th Avenue\", \"city\": \"Queens\", \"state\": \"NEW YORK\", \"zip\": \"11368\"}", "40.749678220374", "-73.853040688577", null, false ], "104- 11 37th Avenue", "11368", "40.753535", "-73.863451", "3", "21", "379", "4043421", "4017460035", "North Corona                                                               ", "14510", "66", "3", "21", "68" ]
+, [ "row-gcxm.4i3a-qf9n", "00000000-0000-0000-E94C-CC43FF810A2A", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Crisis Shelter", "Ali Forney Center", "Brooklyn", "Ali Forney Center", "212.206.0574", null, [ "{\"address\": \"216 23rd Street\", \"city\": \"Brooklyn\", \"state\": \"NEW YORK\", \"zip\": \"11232\"}", "40.66061430242", "-73.99529162858", null, false ], "216 23rd Street", "11232", "40.660694", "-73.995379", "7", "38", "145", "3322574", "3006490027", "Sunset Park West                                                           ", "13515", "9", "2", "7", "45" ]
+, [ "row-sbwd~apyh-pnjn", "00000000-0000-0000-B0B3-95BAD2CCE192", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Drop-In Center", "Bronx Community Pride Center, Inc.", "Bronx", "Bronx Community Pride Center, Inc.", "718.292.4368", null, [ "{\"address\": \"448 149th Street\", \"city\": \"Bronx\", \"state\": \"NEW YORK\", \"zip\": \"10455\"}", "40.815410316439", "-73.916173136181", null, false ], "448 East 149th Street", "10455", "40.815377", "-73.916026", "1", "8", "43", "2000538", "2022930053", "Mott Haven-Port Morris                                                     ", "10933", "49", "5", "35", "23" ]
+, [ "row-b2j6-afi6_37w6", "00000000-0000-0000-8F77-5558C72C7495", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Crisis Shelter", "Ali Forney Center", "Brooklyn", "Ali Forney Center", "212.206.0574", null, [ "{\"address\": \"241 Taffee Place\", \"city\": \"Brooklyn\", \"state\": \"NEW YORK\", \"zip\": \"11205\"}", "40.691595783202", "-73.959639288816", null, false ], "241 Taffee Place", "11205", null, null, null, null, null, null, null, null, "17212", "69", "2", "38", "51" ]
+, [ "row-z5vc~c85i~64gs", "00000000-0000-0000-8DF7-BFD9213BECB5", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Drop-In Center", "Seamans Society for Children and Families ", "Staten Island", "Seamans Society for Children and Families", "718.447.7740 ext. 248", null, [ "{\"address\": \"50 Bay Street Staten Island\", \"city\": \"NEW YORK\", \"state\": \"\", \"zip\": \"10301\"}", "40.639476445583", "-74.073315295103", null, false ], "50 Bay Street", "10301", "40.640901", "-74.075766", "1", "49", "3", "5000034", "5000050099", "West New Brighton-New Brighton-St. George                                  ", "10369", "4", "1", "13", "74" ]
+, [ "row-6uzj.gdiz-ic32", "00000000-0000-0000-E472-0578895DC2A2", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Transportation", "Safe Horizon, Inc", "Manhattan", "Safe Horizon, Inc", "212.695.2220", null, [ "{\"address\": \"209 125th Street\", \"city\": \"Manhattan\", \"state\": \"NEW YORK\", \"zip\": \"10027\"}", "40.809154206199", "-73.948683474836", null, false ], "209 West 125th Street ", "10027", "40.80919", "-73.94882", "10", "9", "222", "1058660", "1019310027", "Central Harlem South                                                       ", "12424", "18", "4", "36", "18" ]
+, [ "row-avqi-xav6-c5dq", "00000000-0000-0000-354A-7FD9FB48EC68", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Crisis Shelter", "Covenant House New York / Under 21", "Manhattan", "Covenant House New York", "212.613.0300 ext. 0531", null, [ "{\"address\": \"460 41st Street\", \"city\": \"Manhattan\", \"state\": \"NEW YORK\", \"zip\": \"10036\"}", "40.758694165955", "-73.995342861638", null, false ], "460 West 41st Street", "10036", "40.758655", "-73.995116", "4", "3", "115", "1080922", "1010500001", "Clinton                                                                    ", "12080", "12", "4", "10", "6" ]
+, [ "row-nex4~xnmd-3d69", "00000000-0000-0000-BDFD-5DED0DB13936", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Crisis Shelter", "Safe Horizon", "Manhattan", "Safe Horizon, Inc", "212.268.3943", null, [ "{\"address\": \"165 131st Street\", \"city\": \"Manhattan\", \"state\": \"NEW YORK\", \"zip\": \"10027\"}", "40.812343779054", "-73.944496017976", null, false ], "165 West 131st Street", "10027", "40.81232", "-73.94449", "10", "9", "226", "1000000", "0", "Central Harlem North-Polo Grounds                                          ", "12424", "18", "4", "36", "20" ]
+, [ "row-w9yr~bmb8_88p6", "00000000-0000-0000-926E-B543E51DCEBE", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Crisis Shelter", "Covenant House New York / Under 21", "Manhattan", "Covenant House New York", "212.613.0300 ext. 0532", null, [ "{\"address\": \"427 52nd Street\", \"city\": \"Manhattan\", \"state\": \"NEW YORK\", \"zip\": \"10019\"}", "40.765275890612", "-73.989246802283", null, false ], "427 West 52nd Street", "10019", "40.765146", "-73.988982", "4", "3", "133", "1080953", "1010620017", "Clinton                                                                    ", "12081", "12", "4", "10", "10" ]
+, [ "row-phvm_syy8~7z4i", "00000000-0000-0000-D15A-4DD72143F793", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth", "Drop-In Center", "Safe Space NYC, Inc", "Queens", "Safe Space NYC, Inc", "718.526.2400", null, [ "{\"address\": \"89 31\", \"city\": \"Queens\", \"state\": \"NEW YORK\", \"zip\": \"11432\"}", "40.71311535449", "-73.792820999789", null, false ], "89-31 161St ", "11432", null, null, null, null, null, null, null, null, "24340", "25", "3", "24", "65" ]
+, [ "row-cuhz.aa4t-22bi", "00000000-0000-0000-3A8D-A23BE3D9DD48", 0, 1514399137, null, 1514399137, null, "{ }", "Runaway & Homeless Youth Sreeet Outreach", "Street Outreach", "Greenwich Village Youth Council", "Manhattan", "Greenwich Village Youth Council", "646.209.1264", null, [ "{\"address\": \"2273 3rd Avenue\", \"city\": \"Manhattan\", \"state\": \"NEW YORK\", \"zip\": \"10037\"}", "40.813297761083", "-73.937282525568", null, false ], "2273 3rd Avenue", "10037", "40.802707", "-73.93653", "11", "8", "194", "1054659", "1017880050", "East Harlem North                                                          ", "13095", "18", "4", "36", "20" ]
+ ]
+}

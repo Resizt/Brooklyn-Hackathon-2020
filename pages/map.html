@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>NYC Homeless Resources - Map</title>
+      <!-- Bootstrap core CSS -->
+      <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="../public/css/the-big-picture.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+         <div class="container">
+            <a class="navbar-brand" href="map.html"> New York City | Homeless Resources</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"> <a class="nav-link active" href="map.html"> Map </a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="report.html">Report</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="coronavirus.html" style="color: darkred">COVID-19</a> </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Page Content -->				        
+      <ul class="nav nav-pills">
+         <li class="active">
+            <button>
+            <a href="#" onclick = "initMap()">Drop-In Centers</a>
+            </button>
+         </li>
+         <li>
+            <button>
+            <a href="#" onclick = updateMap('facilities')>Facilities</a>
+            </button>
+         </li>
+         <li><button><a href="#" onclick = updateMap('afterschool')>After School Programs</a></button></li>
+         <li><button><a href="#" onclick = updateMap('prevention')>Homeless Prevention Network Offices</a></button></li>
+      </ul>
+      <div id="map"> </div>
+      <section>
+         <div class="container">
+            <div class="row"> </div>
+            <ul class="nav nav-pills">
+               <li class="active">
+                  <a href="#" onclick = "initMap()">Drop-In Centers</a>
+               </li>
+               <li>
+                  <a href="#" onclick = updateMap('facilities')>Facilities</a>
+               </li>
+               <li><a href="#" onclick = updateMap('afterschool')>After School Programs</a></li>
+               <li><a href="#" onclick = updateMap('prevention')>Homeless Prevention Network Offices</a></li>
+            </ul>
+            <div class="row"> </div>
+         </div>
+      </section>
+      <!-- Bootstrap core JavaScript -->
+      <script src="../vendor/jquery/jquery.min.js"></script>
+      <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script id="apiScript"></script>
+      <script src="../public/js/map.js"></script>
+   </body>
+</html>

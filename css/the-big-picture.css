@@ -1,0 +1,16 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+	background:rgba(255,255,255,1.00) repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.background{
+	background:rgba(255,255,255,1.00) repeat center fixed;
+}

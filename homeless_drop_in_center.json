@@ -1,0 +1,630 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "bmxf-3rd4",
+      "name" : "Directory Of Homeless Drop- In Centers",
+      "attribution" : "Department of Homeless Services (DHS)",
+      "attributionLink" : "http://www.nyc.gov/html/dhs/html/outreach/outreach.shtml",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1359585577,
+      "description" : "List of centers where homeless people are provided with hot meals, showers, medical help and a place to sleep",
+      "displayType" : "table",
+      "downloadCount" : 3513,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1536596610,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 26017510,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1505159846,
+      "publicationGroup" : 646850,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1495226143,
+      "rowsUpdatedBy" : "d5dp-fses",
+      "tableId" : 14217883,
+      "totalTimesRated" : 0,
+      "viewCount" : 10396,
+      "viewLastModified" : 1536606909,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1505159846,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 1067648,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1505159846,
+        "workflowId" : 2285,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "5fuc-pqz2",
+          "displayName" : "NYC OpenData"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 303028140,
+        "name" : "Center Name",
+        "dataTypeName" : "text",
+        "fieldName" : "center_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7410829,
+        "width" : 173,
+        "cachedContents" : {
+          "largest" : "The Living Room ",
+          "non_null" : 5,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Mainchance",
+            "count" : 20
+          }, {
+            "item" : "The Living Room ",
+            "count" : 19
+          }, {
+            "item" : "Olivieri Center",
+            "count" : 18
+          }, {
+            "item" : "The Gathering Place",
+            "count" : 17
+          }, {
+            "item" : "Project Hospitality",
+            "count" : 16
+          } ],
+          "smallest" : "Mainchance"
+        },
+        "format" : { }
+      }, {
+        "id" : 303028141,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "fieldName" : "borough",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7410830,
+        "width" : 127,
+        "cachedContents" : {
+          "largest" : "Staten Island",
+          "non_null" : 5,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Manhattan",
+            "count" : 20
+          }, {
+            "item" : "Bronx",
+            "count" : 19
+          }, {
+            "item" : "Brooklyn",
+            "count" : 18
+          }, {
+            "item" : "Staten Island",
+            "count" : 17
+          } ],
+          "smallest" : "Bronx"
+        },
+        "format" : { }
+      }, {
+        "id" : 303032208,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 47823030,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "25 Central Avenue\n",
+          "non_null" : 5,
+          "null" : 0,
+          "top" : [ {
+            "item" : "120 East 32nd Street\n",
+            "count" : 20
+          }, {
+            "item" : "1241 Lafayette Avenue\n",
+            "count" : 19
+          }, {
+            "item" : "257 West 30th Street\n",
+            "count" : 18
+          }, {
+            "item" : "2402 Atlantic Avenue\n",
+            "count" : 17
+          }, {
+            "item" : "25 Central Avenue\n",
+            "count" : 16
+          } ],
+          "smallest" : "120 East 32nd Street\n"
+        },
+        "format" : { }
+      }, {
+        "id" : 303028143,
+        "name" : "Comments",
+        "dataTypeName" : "text",
+        "fieldName" : "comments",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7410831,
+        "width" : 499,
+        "cachedContents" : {
+          "largest" : "Open from 7:30 a.m.-8:30 p.m. This program remain open 24 hours during winter months",
+          "non_null" : 5,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Open 24 hours",
+            "count" : 20
+          }, {
+            "item" : "Open from 7:30 a.m.-8:30 p.m. This program remain open 24 hours during winter months",
+            "count" : 19
+          } ],
+          "smallest" : "Open 24 hours"
+        },
+        "format" : { }
+      }, {
+        "id" : 303029554,
+        "name" : "Postcode",
+        "dataTypeName" : "number",
+        "fieldName" : "postcode",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822088,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "11233",
+          "non_null" : 5,
+          "average" : "10405",
+          "null" : 0,
+          "top" : [ {
+            "item" : "10016",
+            "count" : 20
+          }, {
+            "item" : "10474",
+            "count" : 19
+          }, {
+            "item" : "10001",
+            "count" : 18
+          }, {
+            "item" : "11233",
+            "count" : 17
+          }, {
+            "item" : "10301",
+            "count" : 16
+          } ],
+          "smallest" : "10001",
+          "sum" : "52025"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 303029609,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822143,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "40.81653",
+          "non_null" : 5,
+          "average" : "40.7256346",
+          "null" : 0,
+          "top" : [ {
+            "item" : "40.745377",
+            "count" : 20
+          }, {
+            "item" : "40.81653",
+            "count" : 19
+          }, {
+            "item" : "40.749139",
+            "count" : 18
+          }, {
+            "item" : "40.676015",
+            "count" : 17
+          }, {
+            "item" : "40.641112",
+            "count" : 16
+          } ],
+          "smallest" : "40.641112",
+          "sum" : "203.628173"
+        },
+        "format" : { }
+      }, {
+        "id" : 303029631,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822165,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "-73.889742",
+          "non_null" : 5,
+          "average" : "-73.9693988",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-73.981306",
+            "count" : 20
+          }, {
+            "item" : "-73.889742",
+            "count" : 19
+          }, {
+            "item" : "-73.994016",
+            "count" : 18
+          }, {
+            "item" : "-73.905105",
+            "count" : 17
+          }, {
+            "item" : "-74.076825",
+            "count" : 16
+          } ],
+          "smallest" : "-74.076825",
+          "sum" : "-369.846994"
+        },
+        "format" : { }
+      }, {
+        "id" : 303029646,
+        "name" : "Community Board",
+        "dataTypeName" : "number",
+        "fieldName" : "community_board",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822180,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "16",
+          "non_null" : 5,
+          "average" : "5.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "5",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "16",
+            "count" : 18
+          }, {
+            "item" : "1",
+            "count" : 17
+          } ],
+          "smallest" : "1",
+          "sum" : "29"
+        },
+        "format" : { }
+      }, {
+        "id" : 303029678,
+        "name" : "Council District",
+        "dataTypeName" : "number",
+        "fieldName" : "council_district",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822212,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "49",
+          "non_null" : 5,
+          "average" : "21.6",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2",
+            "count" : 20
+          }, {
+            "item" : "17",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "37",
+            "count" : 17
+          }, {
+            "item" : "49",
+            "count" : 16
+          } ],
+          "smallest" : "2",
+          "sum" : "108"
+        },
+        "format" : { }
+      }, {
+        "id" : 303029740,
+        "name" : "Census Tract",
+        "dataTypeName" : "number",
+        "fieldName" : "census_tract",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822274,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "36502",
+          "non_null" : 5,
+          "average" : "7354.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "72",
+            "count" : 20
+          }, {
+            "item" : "93",
+            "count" : 19
+          }, {
+            "item" : "101",
+            "count" : 18
+          }, {
+            "item" : "36502",
+            "count" : 17
+          }, {
+            "item" : "3",
+            "count" : 16
+          } ],
+          "smallest" : "3",
+          "sum" : "36771"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 303029741,
+        "name" : "BIN",
+        "dataTypeName" : "number",
+        "fieldName" : "bin",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822275,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "5000027",
+          "non_null" : 5,
+          "average" : "2415500.2",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1018469",
+            "count" : 20
+          }, {
+            "item" : "2006002",
+            "count" : 19
+          }, {
+            "item" : "1014337",
+            "count" : 18
+          }, {
+            "item" : "3038666",
+            "count" : 17
+          }, {
+            "item" : "5000027",
+            "count" : 16
+          } ],
+          "smallest" : "1014337",
+          "sum" : "12077501"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 303029742,
+        "name" : "BBL",
+        "dataTypeName" : "number",
+        "fieldName" : "bbl",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 47822276,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "5000050065",
+          "non_null" : 5,
+          "average" : "2411698053.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1008870087",
+            "count" : 20
+          }, {
+            "item" : "2027400100",
+            "count" : 19
+          }, {
+            "item" : "1007800009",
+            "count" : 18
+          }, {
+            "item" : "3014370008",
+            "count" : 17
+          }, {
+            "item" : "5000050065",
+            "count" : 16
+          } ],
+          "smallest" : "1007800009",
+          "sum" : "12058490269"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 303029743,
+        "name" : "NTA",
+        "dataTypeName" : "text",
+        "fieldName" : "nta",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 47822277,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "West New Brighton-New Brighton-St. George                                  ",
+          "non_null" : 5,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Murray Hill-Kips Bay                                                       ",
+            "count" : 20
+          }, {
+            "item" : "Hunts Point                                                                ",
+            "count" : 19
+          }, {
+            "item" : "Midtown-Midtown South                                                      ",
+            "count" : 18
+          }, {
+            "item" : "Ocean Hill                                                                 ",
+            "count" : 17
+          }, {
+            "item" : "West New Brighton-New Brighton-St. George                                  ",
+            "count" : 16
+          } ],
+          "smallest" : "Hunts Point                                                                "
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "filename" : "Directory_Of_Homeless_Drop_In_Centers.xlsx",
+          "assetId" : "dfffbbe9-ec0b-4d3a-bdbe-9e6be082d447",
+          "blobId" : "",
+          "name" : "Directory_Of_Homeless_Drop_In_Centers.xlsx"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Date Made Public" : "1/30/2013",
+            "Update Frequency" : "Annually"
+          },
+          "Legislative Compliance" : {
+            "Geo-coding Attached?" : ""
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Homeless Services (DHS)"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "dhs", "homeless", "shelter", "drop-in", "center" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-3ngk.4qad_xtnk", "00000000-0000-0000-AAB6-9B27875F7FC7", 0, 1505163372, null, 1505163372, null, "{ }", "Mainchance", "Manhattan", "120 East 32nd Street\n", "Open 24 hours", "10016", "40.745377", "-73.981306", "5", "2", "72", "1018469", "1008870087", "Murray Hill-Kips Bay                                                       " ]
+, [ "row-nfhh-2q8d.spyp", "00000000-0000-0000-F0BF-259D862648D8", 0, 1505163372, null, 1505163372, null, "{ }", "The Living Room ", "Bronx", "1241 Lafayette Avenue\n", "Open 24 hours", "10474", "40.81653", "-73.889742", "2", "17", "93", "2006002", "2027400100", "Hunts Point                                                                " ]
+, [ "row-e8fd.d88h-9saz", "00000000-0000-0000-CEC7-D173BA9E546F", 0, 1505163372, null, 1505163372, null, "{ }", "Olivieri Center", "Manhattan", "257 West 30th Street\n", "Open from 7:30 a.m.-8:30 p.m. This program remain open 24 hours during winter months", "10001", "40.749139", "-73.994016", "5", "3", "101", "1014337", "1007800009", "Midtown-Midtown South                                                      " ]
+, [ "row-hqvp-8fqr-wrdb", "00000000-0000-0000-071D-973ED96436EF", 0, 1505163372, null, 1505163372, null, "{ }", "The Gathering Place", "Brooklyn", "2402 Atlantic Avenue\n", "Open from 7:30 a.m.-8:30 p.m. This program remain open 24 hours during winter months", "11233", "40.676015", "-73.905105", "16", "37", "36502", "3038666", "3014370008", "Ocean Hill                                                                 " ]
+, [ "row-x2av~da7m-g9xe", "00000000-0000-0000-A758-19BC895175A9", 0, 1505163372, null, 1505163372, null, "{ }", "Project Hospitality", "Staten Island", "25 Central Avenue\n", "Open from 7:30 a.m.-8:30 p.m. This program remain open 24 hours during winter months", "10301", "40.641112", "-74.076825", "1", "49", "3", "5000027", "5000050065", "West New Brighton-New Brighton-St. George                                  " ]
+ ]
+}
